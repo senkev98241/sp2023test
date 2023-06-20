@@ -1,58 +1,56 @@
 <html>
-  <head><title>https://github.com/senkev98241/sp2023test/blob/main/JavaScript/index.html</title></head>
-  
-  <p>Hello, my name is Kevin Seng. I am quite tech savy in working with computer software and would look forward to the computer science and information technology field.</p>
-  
-  <h2>Education</h2>
-  <p>I am a Lynnwood High School graduate Class of 2024. I have taken relevant coursework for my career.</p>
-  <input type="radio" onchange = "courseDescription()" name="education" value="manufacturing foundations">Manufacutring Foundations<br/>
-  <input type="radio" onchange = "courseDescription()" name="education" value="Robotics">Robotics<br/>
-  <input type="radio" onchange = "courseDescription()" name="education" value="intro to engineering design">Intro to Engineering Design<br/>
-  <input type="radio" onchange = "courseDescription()" name="education" value="accounting">Accounting<br/>
-  <input type="radio" onchange = "courseDescription()"name="education" value="graphic arts">Graphic Arts<br/>
-  <input type="radio" onchange = "courseDescription()"name="education" value="microsoft it academy">Microsoft IT Academy<br/>
-  <input type="radio" onchange = "courseDescription()" name="education" value="ap calculus ab">AP Calculus AB<br/>
-  <input type="radio" onchange = "courseDescription()" name="education" value="honors chemistry">Honors Chemistry<br/>
-  <input type="radio" onchange = "courseDescription()"name="education" value="ap statistics">AP Statistics<br/>
-  <input type="radio" onchange = "courseDescription()"name="education" value="ap physics 1">AP Physics 1<br/>
-  <input type="radio" onchange = "courseDescription()" name="education" value="applied engineering and manufacturing">Applied Engineering & Manufacturing<br/>
-  <p id="classDesc"></p>
-   <script>
-         courseDescription = function() {
-            var ele = document.getElementsByName('education');
-            for (i = 0; i < ele.length; i++) {
-                if (ele[i].checked)
-                    document.getElementById("classDesc").innerHTML = "I don't even know how to work this programming is just copy paste and ridiculously hard" + ele[i].value;
-            }
-          }
-      </script>
-  <p>I have been an Edmonds College student by Dual Enrollment, Washington State Running Start program.</p>
-  <ul>
-    <li>ENGR 231/ENGL&235 Technical Writing</li>
-    <li>PHYS&221 Engineering Physics 1 of 3</li>
-    <li>CS&141 Computer Science 1 of 3 Java</li>
-  </ul>
-  
-  <p>I have also been enrolled at Everett Community College also by Dual Enrollment, Running Start.</p>
-  <ul>
-    <li>PHYS&114 + &116, General Physics 1 & 3</li>
-    <li>MATH&152 Calculus 2</li>
-    <li>MATH&153 Calculus 3</li>
-  </ul>
-
-  <h2>Activities</h2>
-  
-  <p>Alderwood Middle School Library Head TA</p>
-  
-  <p>FIRST Robotics Competition, FRC 2522 Royal Robotics <br/>
-  Drive Team: Human Player, Strategy Lead, Assistant Secretary, Vice President of Administration</p>
-  
-  <h2>Certificates and Awards of Achivements</h2>
-  <ul>
-    <li>Communication Skills for Business: Professional Communication</li>
-    <li> Microsoft Office Specialist Associate/Expert/Master</li>
-    <li>Washington State Microsoft Office Specialist State Championship 2022 Fall Qualifier 3rd Place PowerPoint 2016 & Excel 2016.
-  FIRST Dean's List Semi-Finalists</li>
-    <li> Certified SOLIDWORKS Associate - Mechanical Design (CSWA)</li>
-  </ul> 
+  <head>
+    <title>The Kevina Sengpai of Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p>Hello, my name is Kevin Seng. I am quite tech savy in working with computer software and would look forward to the computer science and information technology field.</p>
+    <h2>Education</h2>
+    <p>I am a Lynnwood High School graduate Class of 2024. I have taken relevant coursework for my career.</p>
+    <input type="radio" onchange = "courseDescription()" name="education" value="manufacturing foundations">Manufacutring Foundations<br/>
+    <input type="radio" onchange = "courseDescription()" name="education" value="Robotics">Robotics<br/>
+    <input type="radio" onchange = "courseDescription()" name="education" value="intro to engineering design">Intro to Engineering Design<br/>
+    <input type="radio" onchange = "courseDescription()" name="education" value="accounting">Accounting<br/>
+    <input type="radio" onchange = "courseDescription()"name="education" value="graphic arts">Graphic Arts<br/>
+    <input type="radio" onchange = "courseDescription()"name="education" value="microsoft it academy">Microsoft IT Academy<br/>
+    <input type="radio" onchange = "courseDescription()" name="education" value="ap calculus ab">AP Calculus AB<br/>
+    <input type="radio" onchange = "courseDescription()" name="education" value="honors chemistry">Honors Chemistry<br/>
+    <input type="radio" onchange = "courseDescription()"name="education" value="ap statistics">AP Statistics<br/>
+    <input type="radio" onchange = "courseDescription()"name="education" value="ap physics 1">AP Physics 1<br/>
+    <input type="radio" onchange = "courseDescription()" name="education" value="applied engineering and manufacturing">Applied Engineering & Manufacturing<br/>
+    <p id="classDesc"></p>
+    <script>
+      courseDescription = function() {
+        var ele = document.getElementsByName('education');
+        for (i = 0; i < ele.length; i++) {
+          if (ele[i].checked)
+            document.getElementById("classDesc").innerHTML = "I don't even know how to work this programming is just copy paste and ridiculously hard" + ele[i].value;
+        }
+      }
+    </script>
+    <p>I have been an Edmonds College student by Dual Enrollment, Washington State Running Start program.</p>
+    <ul>
+      <li>ENGR 231/ENGL&235 Technical Writing</li>
+      <li>PHYS&221 Engineering Physics 1 of 3</li>
+      <li>CS&141 Computer Science 1 of 3 Java</li>
+    </ul>
+    <p>I have also been enrolled at Everett Community College also by Dual Enrollment, Running Start.</p>
+    <ul>
+      <li>PHYS&114 + &116, General Physics 1 & 3</li>
+      <li>MATH&152 Calculus 2</li>
+      <li>MATH&153 Calculus 3</li>
+    </ul>
+    <h2>Activities</h2>
+    <p>Alderwood Middle School Library Head TA</p>
+    <p>FIRST Robotics Competition, FRC 2522 Royal Robotics <br/>
+      Drive Team: Human Player, Strategy Lead, Assistant Secretary, Vice President of Administration</p>
+    <h2>Certificates and Awards of Achivements</h2>
+    <ul>
+      <li>Communication Skills for Business: Professional Communication</li>
+      <li> Microsoft Office Specialist Associate/Expert/Master</li>
+      <li>Washington State Microsoft Office Specialist State Championship 2022 Fall Qualifier 3rd Place PowerPoint 2016 & Excel 2016.</li>
+      <li>FIRST Dean's List Semi-Finalists</li>
+      <li> Certified SOLIDWORKS Associate - Mechanical Design (CSWA)</li>
+    </ul> 
+  </body>
 <html>
