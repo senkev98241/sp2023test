@@ -19,8 +19,12 @@
   <p id="classDesc"></p>
    <script>
          courseDescription = function() {
-         	document.getElementById("classDesc").innerHTML = 5 + 6;
-         }
+            var ele = document.getElementsByName('education');
+            for (i = 0; i < ele.length; i++) {
+                if (ele[i].checked)
+                    document.getElementById("result").innerHTML = "I don't even know how to work this programming is just copy paste and ridiculously hard" + ele[i].value;
+            }
+          }
       </script>
   I have been an Edmonds College student by Dual Enrollment, Washington State Running Start program.
   ENGR 231/ENGL&235 Technical Writing
